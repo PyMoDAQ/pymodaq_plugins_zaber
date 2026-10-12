@@ -12,9 +12,12 @@ package-url = "https://github.com/Attolab/pymodaq_plugins_zaber"
 name = "pymodaq_plugins_zaber"
 description = "Plugin for Zaber actuators"
 dependencies = [
+    "pymodaq>=5.3.2",
+    "pymodaq_utils>=5.3.1",
+    "pymodaq_gui>=5.3.0",
+    "pymodaq_data>=5.3.0",
     "zaber-motion",
     "pyserial",
-    "pymodaq>4.0.0",
 ]
 
 authors = [
